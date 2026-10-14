@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Happy Birthday</title>
+  <style>
+    html, body { margin: 0; height: 100%; background: #060208; }
+    body { display: flex; align-items: center; justify-content: center; overflow: hidden; }
+    #stage { width: 100vmin; height: 100vmin; max-width: 100vw; max-height: 100vh; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <canvas id="stage" aria-label="Animated birthday cake made of birthday wishes in many languages"></canvas>
+  <script src="config.js"></script>
+  <script src="cake.js"></script>
+</body>
+</html>
